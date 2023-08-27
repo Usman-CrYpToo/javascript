@@ -9,7 +9,7 @@ function names () {
 }
  
 var func = function () {
-    console.log("this is expression function");
+    console.log("this is expressions function");
 }
 
 console.log(func)
