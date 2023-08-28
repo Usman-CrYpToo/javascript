@@ -7,11 +7,14 @@ function names () {
      console.log("usman")
      console.log(this)
 }
- 
-var func = function () {
+ let vari = "inside function "
+var func = function (names) {
     console.log("this is expressions function");
+    console.log(names)
+    console.log(arguments)
 }
 
+func("shahid anwaer")
 console.log(func)
 
 console.log(names)
